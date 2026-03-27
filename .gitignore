@@ -1,0 +1,81 @@
+# ------------------------------
+# OS / filesystem noise
+# ------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+Icon?
+._*
+.Trashes/
+.Spotlight-V100/
+
+# ------------------------------
+# Editor / IDE
+# ------------------------------
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# ------------------------------
+# Logs / temp
+# ------------------------------
+*.log
+*.tmp
+*.temp
+.cache/
+
+# ------------------------------
+# Dependency folders (only if ever used locally)
+# ------------------------------
+node_modules/
+vendor/
+
+# ------------------------------
+# Environment / secrets
+# ------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------
+# Archives / release packages
+# Keep source files in Git, not generated install packages
+# ------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+
+# ------------------------------
+# Build / distribution folders
+# ------------------------------
+dist/
+build/
+out/
+release/
+
+# ------------------------------
+# Test / coverage artifacts
+# ------------------------------
+coverage/
+.nyc_output/
+.phpunit.result.cache
+
+# ------------------------------
+# Optional local Joomla test instances
+# Uncomment if you keep a full Joomla installation inside the repo
+# ------------------------------
+# administrator/cache/
+# cache/
+# logs/
+# tmp/

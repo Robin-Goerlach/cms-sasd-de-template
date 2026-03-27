@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" client="site" method="upgrade">
+    <name>cassiopeia_sasd</name>
+    <version>1.0.0</version>
+    <creationDate>2026-03-27</creationDate>
+    <author>SASD / OpenAI</author>
+    <description>SASD Child-Template auf Basis von Cassiopeia mit ruhiger Navy-Petrol-Farbwelt.</description>
+    <parent>cassiopeia</parent>
+    <inheritable>0</inheritable>
+    <files>
+        <filename>templateDetails.xml</filename>
+        <filename>README.md</filename>
+        <filename>preview.png</filename>
+    </files>
+    <media destination="templates/site/cassiopeia_sasd" folder="media">
+        <folder>css</folder>
+        <folder>images</folder>
+    </media>
+</extension>
